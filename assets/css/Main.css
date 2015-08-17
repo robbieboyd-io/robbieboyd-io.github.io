@@ -1,0 +1,226 @@
+body, html 
+{ 
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#000;
+}
+
+div
+{
+	margin:0;
+	padding:0;	
+}
+
+.sprite
+{
+	margin:0;
+	padding:0;	
+}
+
+.scene
+{
+	display:none;	
+	position: absolute;
+}
+
+#preloader
+{
+	width: 32px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -16px;
+	margin-left: -16px;
+}
+
+#wrapper
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+#background
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+#landing
+{
+	width: 100%;
+	height: 100%;	
+}
+
+#landing .header
+{
+	width: 600px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-55px;
+	margin-left:-300px;
+}
+
+#landing .header h1
+{
+	margin: 0;
+	padding: 0;
+	line-height:100%;
+}
+
+#landing .header p
+{
+	margin: 0;
+	padding: 0;
+	text-align:right;
+	line-height:100%;
+}
+
+#landing a 
+{
+	color:#000;
+	text-decoration:none;
+	display:inline-block;
+}
+
+#landing a:hover
+{
+	border-bottom:2px solid #000;
+}
+
+#bg_image
+{
+	display:none;
+}
+
+/**
+	IE Fixer
+*/
+#ie_fixer
+{
+	background:#FBC900;
+	width:100%;
+	position:relative;
+	margin:0;
+}
+
+#ie_fixer .inner
+{
+	width: 90%;
+	margin: 0 auto;	
+	padding:15px;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+#ie_fixer h2
+{
+	margin:0 0 10px 0;
+	padding:0;	
+	font-family:'HelveticaNeueW01-77BdCn 692722';
+	text-transform:uppercase;
+}
+
+#ie_fixer p
+{
+	margin:0;
+	padding:0;	
+	font-size:14px;	
+}
+
+#ie_fixer p a.text
+{
+	color:#000;
+	text-decoration:none;
+	border-bottom:1px solid #000;	
+}
+
+#ie_fixer p a.text:hover
+{
+	border-bottom:1px solid #000;	
+}
+
+#ie_fixer span.icons
+{
+	padding-top:10px;
+	display:block;	
+}
+
+#ie_fixer .close
+{
+	top:15px;
+	right:15px;	
+}
+
+h1
+{
+	font-size:60px;	
+}
+
+.bevan
+{
+	font-family: 'Bevan', cursive;	
+}
+
+/* Mobile - Landscape View - 420px wide */
+@media only screen and (max-width: 767px) and (min-width: 480px) {	
+	
+/* Use this section for the iPhone - Landscape styles */
+	#landing .header
+	{
+		width: 600px;
+		margin-top:-55px;
+		margin-left:-300px;
+	}
+
+	#landing .header p
+	{
+		text-align:right;	
+	}
+	
+	h1
+	{
+		font-size:60px;	
+	}
+}
+	
+/* Mobile - Portrait View - 300px wide */
+ @media only screen and (max-width: 479px){	
+/* Use this section for the iPhone - Portrait styles */	
+	#landing .header
+	{
+		width: 300px;
+		margin-top:-55px;
+		margin-left:-150px;
+	}
+
+	#landing .header p
+	{
+		text-align:left;	
+	}
+	
+	h1
+	{
+		font-size:30px;	
+	}
+}

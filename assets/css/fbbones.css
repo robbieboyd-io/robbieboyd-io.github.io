@@ -1,0 +1,281 @@
+body{
+	padding:0px;
+	margin:0px;
+}
+
+.container{
+	display:block;
+	width:808px;
+	padding:0px;
+	position:relative;  float:left;
+}
+
+  .column{
+  	display:block;
+  	float:left;
+  	margin:10px 10px;
+  	position:relative;
+  }
+
+    .row.column{
+    	margin:0px !important;
+    }
+    
+	.one.column{
+		width:61px;
+	}
+	.two.column{
+		width:142px;
+	}
+	.three.column{
+		width:223px;
+	}
+	.four.column{
+		width:304px;
+	}
+	.five.column{
+		width:385px;
+	}
+	.six.column{
+		width:466px;
+	}
+	.seven.column{
+		width:547px;
+	}
+	.eight.column{
+		width:628px;
+	}
+	.nine.column{
+		width:709px;
+	}
+	.ten.column{
+		width:790px;
+	}
+	
+  	.one.row{
+  		width:81px!important;
+  	}
+  	.two.row{
+  		width:162px!important;
+  	}
+  	.three.row{
+  		width:243px!important;
+  	}
+  	.four.row{
+  		width:324px!important;
+  	}
+  	.five.row{
+  		width:405px!important;
+  	}
+  	.six.row{
+  		width:486px!important;
+  	}
+  	.seven.row{
+  		width:567px!important;
+  	}
+  	.eight.row{
+  		width:648px!important;
+  	}
+  	.nine.row{
+  		width:729px!important;
+  	}
+  	.ten.row{
+  		width:808px;
+  	}
+  	
+/* Tablet - Portait View - 768px wide */
+
+    @media only screen and (max-device-width: 800px) and (min-width: 768px) {
+      
+      .container{
+  			display:block;
+  			width:760px;
+  			margin: 0px auto;
+  			padding:0px;
+  			position:relative;
+  		}
+  			.column{
+  				display:block;
+  				float:left;
+  				margin:8px 8px;
+  			}
+  				.row.column{
+  					margin:0px !important;
+  				}
+      
+      	.one.column{
+      		width:60px;
+      	}
+      	.two.column{
+      		width:136px;
+      	}
+      	.three.column{
+      		width:212px;
+      	}
+      	.four.column{
+      		width:288px;
+      	}
+      	.five.column{
+      		width:364px;
+      	}
+      	.six.column{
+      		width:440px;
+      	}
+      	.seven.column{
+      		width:516px;
+      	}
+      	.eight.column{
+      		width:592px;
+      	}
+      	.nine.column{
+      		width:668px;
+      	}
+      	.ten.column{
+      		width:744px;
+      	}
+
+        	.one.row{
+        		width:76px!important;
+        	}
+        	.two.row{
+        		width:152px!important;
+        	}
+        	.three.row{
+        		width:228px!important;
+        	}
+        	.four.row{
+        		width:304px!important;
+        	}
+        	.five.row{
+        		width:380px!important;
+        	}
+        	.six.row{
+        		width:456px!important;
+        	}
+        	.seven.row{
+        		width:532px!important;
+        	}
+        	.eight.row{
+        		width:608px!important;
+        	}
+        	.nine.row{
+        		width:684px!important;
+        	}
+        	.ten.row{
+        		width:760px;
+        	}
+      
+    }
+
+/* Mobile - Landscape View - 480px wide */
+
+    @media only screen and (max-width: 767px) and (min-width: 480px) {
+
+		.container{
+			display:block;
+			width:420px;
+			margin: 0px auto;
+			padding:0px;
+			position:relative;
+		}
+			.column{
+				display:block;
+				float:left;
+				margin:0px;
+			}
+				.row{
+					margin:0px !important;
+				}
+			.one.column,
+			.two.column,
+			.three.column,
+			.four.column,
+			.five.column,
+			.six.column,
+			.seven.column,
+			.eight.column,
+			.nine.column,
+			.ten.column,
+			.eleven.column,
+			.twelve.column,
+			.one.row,
+			.two.row,
+			.three.row,
+			.four.row,
+			.five.row,
+			.six.row,
+			.seven.row,
+			.eight.row,
+			.nine.row,
+			.ten.row{
+				width:420px!important;
+			}
+
+	}
+
+
+
+
+/* Mobile - Portrait View - 320px wide */
+
+    @media only screen and (max-width: 479px) {
+
+		.container{
+			display:block;
+			width: 300px;
+			margin: 0px auto;
+			padding:0px;
+			position:relative;
+		}
+			.column{
+				display:block;
+				float:left;
+				margin:0px;
+			}
+				.row.column{
+					margin:0px !important;
+				}
+			.one.column,
+			.two.column,
+			.three.column,
+			.four.column,
+			.five.column,
+			.six.column,
+			.seven.column,
+			.eight.column,
+			.nine.column,
+			.ten.column,
+			.eleven.column,
+			.twelve.column,
+			.one.row,
+			.two.row,
+			.three.row,
+			.four.row,
+			.five.row,
+			.six.row,
+			.seven.row,
+			.eight.row,
+			.nine.row,
+			.ten.row{
+				width:300px!important;
+			}
+
+	}
+  	
+.row:before,
+.row:after,
+.container:before,
+.containe:afterr, 	
+.cf:before,
+.cf:after {
+  content:"";
+  display:table;
+}
+
+.cf:after {
+  clear:both;
+}
+
+.cf {
+  zoom:1;
+}
